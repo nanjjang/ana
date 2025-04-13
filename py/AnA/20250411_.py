@@ -111,3 +111,48 @@ print(A)
 A.discard(1000)
 print(A)
 
+#비우기
+A.clear()
+print(A)
+
+# set 메소드
+
+age = input("How old are you? ")
+print("You are", age, "years old.")
+
+
+text = "Python"
+print(len(text))  # 6
+
+
+x = 3.14
+print(type(x))  # <class 'float'>
+
+
+num_str = "10"
+num = int(num_str)  # 문자열을 정수로 변환
+print(num + 5)  # 15
+
+f = float("3.14")  # 문자열을 실수로 변환
+print(f)
+
+s = str(123)  # 숫자를 문자열로
+print(s + "456")  # '123456'
+
+
+for i in range(5):
+    print(i)
+
+numbers = [1, 2, 3, 4, 5]
+total = sum(numbers)
+print(total)  # 15
+
+
+values = [3, 7, 1, 9, 4]
+print(max(values))  # 9
+print(min(values))  # 1
+
+
+unsorted = [5, 3, 8, 1]
+sorted_list = sorted(unsorted)
+print(sorted_list)  # [1, 3, 5, 8]
